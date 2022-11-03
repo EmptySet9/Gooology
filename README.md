@@ -1,12 +1,12 @@
 <img align="right" width="150" height="150" top="100" src="./assets/gobbler.png">
 
-# Art Gobblers • [![CI](https://github.com/artgobblers/art-gobblers/actions/workflows/tests.yml/badge.svg)](https://github.com/artgobblers/art-gobblers/actions/workflows/tests.yml)
+# Gooology • [![CI](https://github.com/artgobblers/art-gobblers/actions/workflows/tests.yml/badge.svg)](https://github.com/artgobblers/art-gobblers/actions/workflows/tests.yml)
 
-Art Gobblers is an experimental decentralized art factory by Justin Roiland and Paradigm.
+Gooology is an experimental decentralized laboratory, designed by Gooologists.
 
 ## Background
 
-Art Gobblers is a decentralized art factory owned by aliens. As artists make cool art, Gobblers gains cultural relevance, making collectors want the art more, incentivizing artists to make cooler art. It's also an on-chain game.
+Gooology is a decentralized laboratory owned by Gooologists. 
 
 See our [overview of the system](https://www.paradigm.xyz/2022/09/artgobblers), as well as deep dives into some of the project's mechanisms, like [GOO](https://www.paradigm.xyz/2022/09/goo) and [VRGDAs](https://www.paradigm.xyz/2022/08/vrgda).
 
@@ -15,7 +15,8 @@ See our [overview of the system](https://www.paradigm.xyz/2022/09/artgobblers), 
 | Contract      | Mainnet                                                                                                                 | Goerli                                                                                                                         |
 |---------------|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | `ArtGobblers` | [`0x60bb1e2aa1c9acafb4d34f71585d7e959f387769`](https://etherscan.io/address/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769) | [`0x60bb1e2aa1c9acafb4d34f71585d7e959f387769`](https://goerli.etherscan.io/address/0x60bb1e2aa1c9acafb4d34f71585d7e959f387769) |
-| `Pages`       | [`0x600df00d3e42f885249902606383ecdcb65f2e02`](https://etherscan.io/address/0x600df00d3e42f885249902606383ecdcb65f2e02) | [`0x600df00d3e42f885249902606383ecdcb65f2e02`](https://goerli.etherscan.io/address/0x600df00d3e42f885249902606383ecdcb65f2e02) |
+xx       | `Pages`       | [`0x600df00d3e42f885249902606383ecdcb65f2e02`](https://etherscan.io/address/0x600df00d3e42f885249902606383ecdcb65f2e02) |        
+xx       [`0x600df00d3e42f885249902606383ecdcb65f2e02`](https://goerli.etherscan.io/address/0x600df00d3e42f885249902606383ecdcb65f2e02) |
 | `Goo`         | [`0x600000000a36f3cd48407e35eb7c5c910dc1f7a8`](https://etherscan.io/address/0x600000000a36f3cd48407e35eb7c5c910dc1f7a8) | [`0x600000000a36f3cd48407e35eb7c5c910dc1f7a8`](https://goerli.etherscan.io/address/0x600000000a36f3cd48407e35eb7c5c910dc1f7a8) |
 
 ## State Diagrams
@@ -23,7 +24,7 @@ See our [overview of the system](https://www.paradigm.xyz/2022/09/artgobblers), 
 
 ![Gobbler Lifecycle](assets/state-machines/gobbler-lifecycle.png)
 ![Legendary Gobbler Auctions](assets/state-machines/legendary-gobbler-auctions.png)
-![Page Auctions](assets/state-machines/page-auctions.png)
+xx        ![Page Auctions](assets/state-machines/page-auctions.png)
 
 ## Usage
 
@@ -77,7 +78,7 @@ In order to deploy the art gobblers contracts, set the relevant constants in the
 ```sh
 export DEPLOYER_PRIVATE_KEY=$DEPLOYER_PRIVATE_KEY
 export GOBBLER_PRIVATE_KEY=$GOBBLER_PRIVATE_KEY
-export PAGES_PRIVATE_KEY=$PAGES_PRIVATE_KEY
+xx  export PAGES_PRIVATE_KEY=$PAGES_PRIVATE_KEY
 export GOO_PRIVATE_KEY=$GOO_PRIVATE_KEY
 
 forge script script/deploy/DeployMainnet.s.sol:DeployMainnet --rpc-url $RPC_URL --verify --etherscan-api-key $API_KEY
